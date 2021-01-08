@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Dungeon Explorer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="DungeonClient.js"></script>
+    <script src="touchEvents.js"></script>
+    <script src="jquery.mobile.custom.min.js"></script>
+</head>
+
+<body>
+<div class="grid-container" id="buttons">
+    <div class="upGrid"> <button id="Up">Up</button></div>
+    <div> <button id="Left">Left</button><button id="Right">Right</button></div>
+    <div class="downGrid"> <button id="Down">Down</button>
+    <div id="timer"></div>
+    <div id="level"></div>
+    </div>
+</div>
+<canvas width="500" height="500">
+    Your browser has no Canvas support!
+</canvas>
+
+</body>
+
+</html>
